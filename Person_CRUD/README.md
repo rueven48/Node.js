@@ -22,5 +22,12 @@
 
 * got 200 status and roey is added.
 
-## PUT request screenshot - edit person, lets change roey age from 35 --> 55. 
+## PUT request screenshot - edit person, lets change roey age from 35 --> 65. 
 
+![image](https://user-images.githubusercontent.com/40452887/47007353-b59ede80-d140-11e8-99ba-78e0543c6e7c.png)
+
+## GET request screenshot - show all persons:
+
+![get3](https://user-images.githubusercontent.com/40452887/47007439-e4b55000-d140-11e8-854d-ab8479d0cc69.png)
+
+* got 200 status and roey edit from 35 - 65.
