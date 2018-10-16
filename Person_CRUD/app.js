@@ -98,10 +98,28 @@ app.post("/api/person", (req, res) => {
 
     try {
         for (key in req.body) {
+            console.log(key); // age
             newPerson[key] = req.body[key];
+            //console.log(newPerson[key]);
         }
 
-        personArr.push(newPerson);
+
+        let filteredNewPerson = {};
+
+        for (key in req.body) {
+
+            filteredNewPerson[key] = newPerson['_'+key];
+
+        }
+
+        console.log(filteredNewPerson);
+
+        console.log(newPerson);
+
+       // console.log(personArr);
+
+        personArr.push(filteredNewPerson);
+        //console.log(personArr);
 
         fs.writeFileSync("person.json", JSON.stringify(personArr));
         res.status(201);
