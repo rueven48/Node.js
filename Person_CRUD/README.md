@@ -8,6 +8,6 @@
 
 ![get](https://user-images.githubusercontent.com/40452887/47004037-56899b80-d139-11e8-8504-d8db4a4c320f.png)
 
-* got 200 status and we can see one person obj showen.
+* got 200 status and we can see one person obj shown.
 
 
