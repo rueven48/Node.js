@@ -31,3 +31,15 @@
 ![get3](https://user-images.githubusercontent.com/40452887/47007439-e4b55000-d140-11e8-854d-ab8479d0cc69.png)
 
 * got 200 status and roey edit from 35 - 65.
+
+## DELETE request screenshot - lets delete roey:
+
+![delete](https://user-images.githubusercontent.com/40452887/47007737-95bbea80-d141-11e8-9479-57e3dbba67fd.png)
+
+## GET request screenshot - show all persons:
+
+![get5](https://user-images.githubusercontent.com/40452887/47007788-abc9ab00-d141-11e8-89f8-4fa7ef23e05b.png)
+
+
+* roey person isnt in the array any more.
+
